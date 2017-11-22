@@ -10,7 +10,7 @@
 
 .TextRight{
 
-	text-align:right;
+	text-align: right;
 }
 
 .TextLeft{
@@ -34,9 +34,10 @@
 .Offer{
 
 	margin-top: 200px;
-	margin-left: 100px;
+	margin-left: 50px;
 	background: Red;
 	padding: 0.5em;
+
 }
 
 .Company{
@@ -44,4 +45,12 @@
 	text-align: left;
 	font-size: 50%;
 	margin-left: 800px;
+}
+
+.Head{
+	margin-top: 100px;
+}
+
+.background{
+	background-image: url('../../Images//background.png');
 }
