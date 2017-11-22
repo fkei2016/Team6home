@@ -1,0 +1,47 @@
+.ImageSize{
+	width: 200px;
+}
+
+.TextSize{
+	font-size: 120%;
+	font-weight: bolder;
+}
+
+
+.TextRight{
+
+	text-align:right;
+}
+
+.TextLeft{
+
+	text-align: left;
+}
+
+.RecruitBox{
+	margin-top: 150px;
+	margin-right: 200px;
+	font-size: 150%;
+	font-weight: bolder;
+}
+.RecruitImage{
+	
+	margin-top: 20px;
+	margin-left: 500px;
+	width: 600px;
+}
+
+.Offer{
+
+	margin-top: 200px;
+	margin-left: 100px;
+	background: Red;
+	padding: 0.5em;
+}
+
+.Company{
+
+	text-align: left;
+	font-size: 50%;
+	margin-left: 800px;
+}
