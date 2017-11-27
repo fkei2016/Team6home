@@ -1,7 +1,28 @@
-.ImageSize{
+.HeaderLogo{
 	width: 200px;
+	cursor:pointer;
+
 }
 .TextSize{
 	font-size: 120%;
 	font-weight: bolder;
+}
+.background{
+	background-image: url('../Images/background.png');
+}
+.HeaderNav{
+	background-color:white;
+	border:none;
+	border-left:dotted;
+	border-right:dotted;
+	padding : 15px 64px;
+	cursor:pointer;
+	color:blue;
+}
+.HeaderNav:hover{
+	background-color:blue;
+	color:white;
+	font-size:24px;
+
+
 }

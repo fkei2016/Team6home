@@ -1,24 +1,22 @@
 document.addEventListener('DOMContentLoaded', function () {
 
+    var img = document.getElementById("topImg");
 
-    var img = new Image();
-    img.src = '../Images/trident.png';
-    img.class = '../CSS/css.css';
     img.onclick = function () {
         window.location.href = '../HTML/Top.html';
     };
 
-    var textSize = document.createElement('a');
-    textSize.href = "../CSS/css.css"
-
-    //document.write("<br/>");
-    //textSize.write("学校法人　河合塾学園");
-    //document.write("<br/>");
-    //
-    //textWrite.write("トライデント コンピュータ専門学校");
-
-    var list = document.getElementById('list');
-    list.appendChild(img);
-
+    var introButton = document.getElementById("intro");
+    introButton.onclick = function () {
+        window.location.href = '../HTML/Introduce.html';
+    }
+    var jobButton = document.getElementById("job");
+    jobButton.onclick = function () {
+        window.location.href = '../HTML/F_Job.html';
+    }
+    var testButton = document.getElementById("test");
+    testButton.onclick = function () {
+        window.location.href = '../HTML/test.html';
+    }
 
 }, false);
