@@ -18,33 +18,17 @@
 	text-align: left;
 }
 
-.RecruitBox{
-	margin-top: 150px;
-	margin-right: 200px;
+.RecruitText{
+
+	margin-top: 100px;
+	margin-left: -325px;
 	font-size: 150%;
 	font-weight: bolder;
-}
-.RecruitImage{
-	
-	margin-top: 20px;
-	margin-left: 500px;
-	width: 600px;
-}
-
-.Offer{
-
-	margin-top: 200px;
-	margin-left: 50px;
-	background: Red;
-	padding: 0.5em;
 
 }
 
-.Company{
-
-	text-align: left;
-	font-size: 50%;
-	margin-left: 800px;
+.RecruitText a{
+	margin-left: 550px;	
 }
 
 .Head{
@@ -53,4 +37,24 @@
 
 .background{
 	background-image: url('../../Images//background.png');
+}
+
+.RecruitBox{
+
+	vertical-align:middle;
+
+}
+.RecruitBox img{
+ 
+	margin-top: 100px;
+	margin-left: 225px;
+	width: 600px;
+}
+.RecruitBox p{
+
+	display:inline-block;
+	vertical-align:top;
+	line-height:80px;
+	margin-top: 70px;
+	margin-left: 50px;
 }
