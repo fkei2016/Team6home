@@ -10,6 +10,10 @@
 .background{
 	background-image: url('../Images/background.png');
 }
+.TextRight{
+
+	text-align: right;
+}
 .HeaderNav{
 	background-color:white;
 	border:none;

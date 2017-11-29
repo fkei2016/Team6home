@@ -14,9 +14,9 @@ document.addEventListener('DOMContentLoaded', function () {
     jobButton.onclick = function () {
         window.location.href = '../HTML/F_Job.html';
     }
-    var testButton = document.getElementById("test");
+    var testButton = document.getElementById("life");
     testButton.onclick = function () {
-        window.location.href = '../HTML/test.html';
+        window.location.href = '../HTML/Campus_life.html';
     }
 
 }, false);
