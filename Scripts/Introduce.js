@@ -1,9 +1,70 @@
 ﻿/*-----------------------------------------------------------------*/
+
+
 document.addEventListener('DOMContentLoaded',
     function () {
 
+        //document.write('<img src="../Images/GameScienceClass.jpg" alt="画像だよ♪" align="left">');
 
-        document.write('<a href="../HTML/F_Job.html"><img src="../Images/Trident.png"></a>');
+
+
+        //var reader = new FileReader();
+
+
+
+
+
+
+
+
+        //document.getElementById("file").onchange = function(e){
+        //    reader.addEventListener('load', function(e) {
+        //        document.getElementById("img").setAttribute("src",e.target.result);
+        //    });
+        //    reader.readAsDataURL( this.files[0] );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        //var input = "../Images/GameScienceClass.jpg";
+
+
+        //var reader = new FileReader();
+        //reader.addEventListener('load', function () {
+        //    document.getElementById("result").src = reader.result;
+        //}, true);
+        //reader.readAsDataURL(input);
+
+
+        //document.write('<img src="../Images/GameScienceClass.jpg">');
+
+
+
+
+        // GT1の紹介
+
+
+
+
+
+
+
+
+
+
+
+
+        //document.write('<a href="../HTML/F_Job.html"><img src="../Images/Trident.png"></a>');
 
 
 

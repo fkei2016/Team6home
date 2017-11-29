@@ -1,0 +1,19 @@
+.title{
+ font-size:300%;
+}
+
+.subtitle{
+ font-size:120%;
+ background-color: rgba(128,128,128,0.15);
+}
+
+.text{
+ font-size:100%;
+}
+
+.label{
+ font-size:120%;
+
+ background:url("../Images/label.png");
+}
+
