@@ -27,6 +27,20 @@
 	background-color:blue;
 	color:white;
 	font-size:24px;
-
-
+}
+.wideSlider{
+	position:absolute;
+}
+.slider{
+	top:20;
+	overflow: hidden;
+	position: absolute;
+	z-index: 30;
+}
+.mask_l, .mask_r{
+	top: 20;
+	overflow: hidden;
+	position: absolute;
+	z-index: 20;
+		
 }
