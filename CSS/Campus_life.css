@@ -7,13 +7,16 @@
 	font-weight: bolder;
 }
 
+.dailylife {
+    width: 700px;
+    margin: 0 auto;
+}
 .mv{
 	height: 550px;
     background: url("../../Images/mv.jpg") no-repeat 50% 0;
     position: relative;
 }
 .mv_title{
-	position; absolute;
     top: 0;
 	left: 0;
 }
