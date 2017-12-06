@@ -1,0 +1,16 @@
+.field{
+ position: relative;
+ left: 475px;
+ width: 950px;
+}
+
+.left{
+  float: left;
+ width: 475px;
+}
+
+
+.right{
+  float: right;
+ width: 475px;
+}
