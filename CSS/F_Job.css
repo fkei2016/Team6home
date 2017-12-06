@@ -48,7 +48,7 @@
  
 	margin-top: 100px;
 	margin-left: 225px;
-	width: 600px;
+
 }
 .RecruitBox p{
 
@@ -57,4 +57,10 @@
 	line-height:80px;
 	margin-top: 70px;
 	margin-left: 50px;
+}
+
+profile{
+
+	width: 60px;
+	height: 60px;
 }
