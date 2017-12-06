@@ -1,0 +1,93 @@
+.slider-holder {
+    width: 950px;
+    height: 380px;
+    background-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center;
+
+}
+
+.image-holder {
+    width: 3800px;
+    background-color: deepskyblue;
+    height: 380px;
+    clear: both;
+    position: relative;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+    transition: left 2s;
+}
+
+.slider-image {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+#slider-image-1:target ~ .image-holder {
+    left: 0px;
+}
+
+#slider-image-2:target ~ .image-holder {
+    left: -950px;
+}
+
+#slider-image-3:target ~ .image-holder {
+    left: -1900px;
+}
+
+#slider-image-4:target ~ .image-holder {
+    left: -2850px;
+}
+
+.button-holder {
+    position: relative;
+    text-align: center;
+    background-color:aquamarine;
+}
+
+.slider-change {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    background-color: blue;
+}
+
+.wideSlider {
+    position: absolute;
+}
+
+.slider {
+    top: 20;
+    overflow: hidden;
+    position: absolute;
+    z-index: 30;
+}
+
+.mask_l {
+    top: 20;
+    overflow: hidden;
+    position: absolute;
+    z-index: 20;
+    left: -218.5px;
+    width: 218.5px;
+    height: 380px;
+    opacity: 0.75;
+    background-color: deepskyblue;
+}
+.mask_r {
+    top: 20;
+    overflow: hidden;
+    position: absolute;
+    z-index: 20;
+    right: -218.5px;
+    width: 218.5px;
+    height: 380px;
+    opacity: 0.75;
+    background-color: deepskyblue;
+}

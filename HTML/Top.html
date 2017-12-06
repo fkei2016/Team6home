@@ -10,6 +10,7 @@
     
     <script src="../Scripts/Top.js"></script>
     <link rel ="stylesheet" href ="../CSS/css.css"/>
+    <link rel="stylesheet" href="../CSS/slider.css" />
 
     <div class="TextRight">イルファン公房</div>
 
@@ -28,7 +29,40 @@
         <input type ="button" class = "HeaderNav" value="キャンパスライフ" id ="life" />
     </div>
     </header>
-        <Hr/>
+
+    <Hr/>
+    <div id="mv">
+        <div class="wideSlider" style="left: 218.5px; width: 951px; height: 380px;">
+            <div class="slider" style="left: -218.5px; width: 245.5px; height: 380px; opacity: 1;">
+                <span></span>
+            </div>
+            <div class="slider" style="right: -218.5px; width: 248.5px; height: 380px; opacity: 1;">
+                <span></span>
+            </div>
+            <div class="mask_l" ></div>
+            <div class="mask_r" ></div>
+
+        </div>
+    </div>
+    <div class=" slider-holder">
+        <span id="slider-image-1"></span>
+        <span id="slider-image-2"></span>
+        <span id="slider-image-3"></span>
+        <span id="slider-image-4"></span>
+        <div class="image-holder">
+            <img src="../Images//mv_soudan.jpg"   class = "slider-image"/>
+            <img src="../Images//mv_shutugan.jpg" class = "slider-image"/>
+            <img src="../Images//mv_saishingaku.jpg" class="slider-image" />
+            <img src="../Images//mv_cyber_security_02.jpg" class="slider-image" />
+        </div>
+    </div>
+    <div class="button-holder">
+        <a href="#slider-image-1" class="slider-change"></a>
+        <a href="#slider-image-2" class="slider-change"></a>
+        <a href="#slider-image-3" class="slider-change"></a>
+        <a href="#slider-image-4" class="slider-change"></a>
+    </div>
+
       
 </body>
 </html>
