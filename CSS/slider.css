@@ -46,16 +46,16 @@
 }
 
 .button-holder {
-    position: relative;
+
     text-align: center;
     background-color:aquamarine;
 }
 
 .slider-change {
     display: inline-block;
-    height: 10px;
-    width: 10px;
-    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+    margin: 0 0 -5px 0;
     background-color: blue;
 }
 
@@ -64,14 +64,14 @@
 }
 
 .slider {
-    top: 20;
+    top: 20px;
     overflow: hidden;
     position: absolute;
     z-index: 30;
 }
 
 .mask_l {
-    top: 20;
+    top: 20px;
     overflow: hidden;
     position: absolute;
     z-index: 20;
