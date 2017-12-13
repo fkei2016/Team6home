@@ -1,16 +1,45 @@
 .field{
- position: relative;
- left: 475px;
+  position: relative;
+  left: 475px;
+  width: 950px;
+}
+
+.split_left{
+  float: left;
+  width: 450px;
+  hight: 500px;
+}
+
+
+.split_right{
+  float: right;
+  width: 450px;
+  hight: 500px;
+  left: 50px;
+}
+
+.refresh{
+ clear: both;
  width: 950px;
 }
 
-.left{
+
+
+.trichotomy_left{
   float: left;
- width: 475px;
+  width: 300px;
+  hight: 500px;
 }
 
-
-.right{
+.trichotomy_center{
   float: right;
- width: 475px;
+  width: 300px;
+  hight: 500px;
+ 
+}
+
+.trichotomy_right{
+  float: right;
+  width: 300px;
+  hight: 500px;
 }
