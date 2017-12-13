@@ -12,8 +12,14 @@
 }
 
 .label{
- font-size:120%;
+ font-size:150%;
 
  background:url("../Images/label.png");
 }
 
+.stressed
+{
+ font-size:120%;
+ color:#0067C0;
+ font-weight:bolder;
+}
