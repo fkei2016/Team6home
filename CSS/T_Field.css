@@ -32,14 +32,15 @@
 }
 
 .trichotomy_center{
-  float: right;
+   float: left;
   width: 300px;
   hight: 500px;
- 
+  left: 25px;
 }
 
 .trichotomy_right{
-  float: right;
+  float: left;
   width: 300px;
   hight: 500px;
+  left: 25px;
 }
