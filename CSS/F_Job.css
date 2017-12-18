@@ -53,10 +53,12 @@
 .RecruitBox p{
 
 	display:inline-block;
-	vertical-align:top;
-	line-height:80px;
+	vertical-align: top;
+	line-height: 80px;
 	margin-top: 70px;
-	margin-left: 50px;
+	margin-left: 225px;
+	font-weight: bolder;
+	font-size: 150%;
 }
 
 profile{
