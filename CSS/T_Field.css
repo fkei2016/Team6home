@@ -4,6 +4,22 @@
   width: 950px;
 }
 
+
+.twitter{
+  postion: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  float: right;
+  width: 200px;
+}
+
+.sticky {
+    postion: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+
 .split_left{
   float: left;
   width: 450px;
@@ -44,3 +60,4 @@
   hight: 500px;
   left: 25px;
 }
+
