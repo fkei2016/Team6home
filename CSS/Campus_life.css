@@ -60,6 +60,30 @@
 .profile__footer {
     display: none;
 }
+.timeline {
+    position: relative;
+}
 .timeline__list {
-    /* padding-bottom: 138px; */
+    padding-bottom: 138px; 
+}
+.timeline__item--1 {
+    padding-bottom: 50px; 
+}
+.dailylife .timeline__list li .box {
+    width: 66px;
+    height: 66px;
+    margin: 0 auto;
+    position: relative;
+}
+.dailylife .timeline__list li .box .box__time {
+    position: relative;
+    z-index: 2;
+}
+.dailylife .timeline .line {
+    width: 4px;
+    background: #a6b8b9;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -2px;
 }
