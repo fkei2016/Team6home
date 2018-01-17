@@ -28,4 +28,56 @@
 	color:white;
 	font-size:24px;
 }
+.FooterInfo {
+    padding: 40px 0 20px 0;
+    border-bottom: 1px solid #e5e5e5;
+    background: #fff;
+}
+
+.FooterInfoInner {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1165px;
+    max-width: 960px;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.address {
+    float: left;
+    width: 44.6%;
+}
+.addressLogo {
+    padding-bottom: 8px;
+    width: 100%;
+}
+.addressTxt {
+    padding: 4px 0 0 10px;
+    font-size: 12px;
+    color: #666;
+}
+#kawaijuku {
+    padding: 27px 22px 24px 22px;
+    float: right;
+    width: 49.4%;
+    background: #f5f5f5;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.kawaijukuInner {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1165px;
+    max-width: 960px;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.kawaijukuLogo {
+    float: left;
+    width: 230px;
+}
+
+
 
