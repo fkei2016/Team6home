@@ -87,3 +87,20 @@
     left: 50%;
     margin-left: -2px;
 }
+.dailylife .timeline__item--1 {
+    position: relative;
+    padding-top: 50px;
+}
+.dailylife .timeline__tips--1 {
+    position: relative;
+    padding-top: 90px;
+}
+.dailylife .timeline__list li .box .event--pos-left {
+    position: relative;
+    text-align: left;
+    left: -302px;
+}
+.dailylife .timeline__list li .box .event--pos-right {
+    position: relative;
+    left: -302px;
+}
