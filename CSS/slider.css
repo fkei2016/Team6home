@@ -8,6 +8,7 @@
     text-align: center;
     overflow:hidden;
 
+
 }
 
 .image-holder {
@@ -82,7 +83,7 @@
     background-color: deepskyblue;
 }
 .mask_r {
-    top: 20;
+    top: 20px;
     overflow: hidden;
     position: absolute;
     z-index: 20;
@@ -92,3 +93,14 @@
     opacity: 0.75;
     background-color: deepskyblue;
 }
+
+.field {
+    position: relative;
+    left: 475px;
+    width: 950px;
+}
+.refresh {
+    clear: both;
+    width: 950px;
+}
+
