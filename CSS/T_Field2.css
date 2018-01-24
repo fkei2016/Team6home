@@ -1,0 +1,46 @@
+.field{
+  position: relative;
+  left: 600px;
+  width: 700px;
+}
+
+
+.twitter{
+  postion: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  float: right;
+  width: 200px;
+}
+
+.sticky {
+    postion: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.refresh{
+ clear: both;
+ width: 700px;
+}
+
+
+
+.trichotomy_left{
+  float: left;
+  width: 325px;
+  hight: 500px;
+}
+
+.trichotomy_center{
+   float: left;
+  width: 50px;
+  hight: 500px;
+}
+
+.trichotomy_right{
+  float: left;
+  width: 325px;
+  hight: 500px;
+}
+
