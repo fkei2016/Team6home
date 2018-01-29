@@ -19,4 +19,10 @@ document.addEventListener('DOMContentLoaded', function () {
         window.location.href = '../HTML/Campus_life.html';
     }
 
+    var topButton = document.getElementById("top");
+    topButton.onclick = function () {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+
 }, false);
