@@ -39,6 +39,12 @@
 	background-image: url('../../Images//background.png');
 }
 
+.Student{
+	margin-left: 0px;
+	opacity: 0;
+	cursor:pointer;
+
+}
 .RecruitBox{
 
 	vertical-align:middle;
@@ -48,9 +54,10 @@
  
 	margin-top: 100px;
 	margin-left: 225px;
-	
+	cursor:pointer;
 
 }
+
 .RecruitBox p{
 
 	display:inline-block;
@@ -61,6 +68,7 @@
 	font-weight: bolder;
 	font-size: 150%;
 }
+
 
 profile{
 

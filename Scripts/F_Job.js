@@ -1,11 +1,12 @@
 document.addEventListener('DOMContentLoaded', function () {
 
-   
+
     var cyberagentButton = document.getElementById("cyberagent");
-    cyberagentButton.onclick = function ()
-    {
-        window.location.href = 'https://www.cyberagent.co.jp/service/game/';
-    }
+    var cyberagentStudent = document.getElementById("cyberagentStudent");
+    //cyberagentButton.onclick = function ()
+    //{
+    //    window.location.href = 'https://www.cyberagent.co.jp/service/game/';
+    //}
 
     var wonderplanetButton = document.getElementById("wonderplanet");
     wonderplanetButton.onclick = function ()
@@ -73,3 +74,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 }, false);
+
+$(function () {
+    //$('#cyberagent').mouseover(function () {
+    //    $('#cyberagentStudent').fadeOut("slow");
+    //});
+    $('#cyberagent').mouseover(function () {
+        $("#cyberagentStudent").animate({ "opacity": "1", "marginLeft": "225px" });
+    });
+    $('#cyberagent').mouseout(function () {
+        $("#cyberagentStudent").animate({ "opacity": "0", "marginLeft": "0px" });
+    });
+});
