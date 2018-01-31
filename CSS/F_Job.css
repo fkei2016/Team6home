@@ -70,7 +70,17 @@
 	margin-top: 70px;
 	margin-left: 225px;
 	font-weight: bolder;
-	font-size: 150%;
+	font-size: 300%;
+}
+.RecruitBox a{
+
+	display:inline-block;
+	vertical-align: top;
+	line-height: 80px;
+	margin-top: 70px;
+	margin-left: 600px;
+	font-weight: bolder;
+	font-size: 450%;
 }
 
 
@@ -79,4 +89,22 @@ profile{
 	width: 60px;
 	height: 60px;
 }
+
+.mark{
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(transparent 60%, #ffff66 60%);
+  background: -webkit-linear-gradient(left, #DE487A, #FFDB4B, #2BD02B, #0095F9, #8E55FF);
+}
+
+.blink {
+  animation: blinkAnime 1s infinite alternate;
+}
+@keyframes blinkAnime{
+ -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  10% { background: linear-gradient(transparent 60%, #ffff66 60%); }
+ 100% { background: -webkit-linear-gradient(left, #DE487A, #FFDB4B, #2BD02B, #0095F9, #8E55FF)}
+}
+
 
