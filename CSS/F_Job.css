@@ -42,6 +42,11 @@
 .Student{
 	margin-left: 0px;
 	opacity: 0;
+
+}
+
+.Logo{
+	margin-left: 225px;
 	cursor:pointer;
 
 }
@@ -50,11 +55,10 @@
 	vertical-align:middle;
 
 }
+
 .RecruitBox img{
  
 	margin-top: 100px;
-	margin-left: 225px;
-	cursor:pointer;
 
 }
 
