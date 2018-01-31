@@ -3,10 +3,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
     var cyberagentButton = document.getElementById("cyberagent");
     var cyberagentStudent = document.getElementById("cyberagentStudent");
-    //cyberagentButton.onclick = function ()
-    //{
-    //    window.location.href = 'https://www.cyberagent.co.jp/service/game/';
-    //}
+    cyberagentButton.onclick = function ()
+    {
+        window.location.href = 'https://www.cyberagent.co.jp/service/game/';
+    }
 
     var wonderplanetButton = document.getElementById("wonderplanet");
     wonderplanetButton.onclick = function ()
