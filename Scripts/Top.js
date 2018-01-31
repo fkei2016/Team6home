@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     var testButton = document.getElementById("life");
     testButton.onclick = function () {
-        window.location.href = '../HTML/Campus_life.html';
+        window.location.href = '../HTML/Life.html';
     }
 
     var topButton = document.getElementById("top");
